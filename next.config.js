@@ -1,8 +1,18 @@
 const path = require("path");
 const glob = require("glob");
+const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
+  assetPrefix: !debug ? "/rd2l-content/" : "",
   webpack: (config, { dev }) => {
+    config.module.rules = config.module.rules.map((rule) => {
+      if (rule.loader === "babel-loader") {
+        rule.options.cacheDirectory = false;
+      }
+      return rule;
+    });
+    // // Important: return the modified config
+    // return config;
     config.module.rules.push(
       {
         test: /\.(css|scss)/,
@@ -36,9 +46,10 @@ module.exports = {
     );
     return config;
   },
-  exportPathMap: function (defaultPathMap) {
+  exportPathMap: function () {
     return {
-      "/": { page: "/rd2l-content" },
+      "/": { page: "/" },
+      "/about": { page: "/about" },
     };
   },
 };
