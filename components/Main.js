@@ -33,24 +33,19 @@ class Main extends React.Component {
             <img src="/static/images/pic01.jpg" alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            <ul>
+              <li>Nice to play with but horrible to play against &lt;3 </li>
+              <li>
+                My biggest goal in life is being as good as Cvækt in the mid
+                role
+              </li>
+              <li>
+                Biggest jokes of RD2L is Paju offlane &amp; 0sphere core Ex Dee
+                Lmfao
+              </li>
+              <li>Most pathetic players in RD2L are HolyHarry &amp; BarkyG </li>
+              <li>Only Icelandic person on your friends list 😄</li>
+            </ul>
           </p>
           {close}
         </article>
