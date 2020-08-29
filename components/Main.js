@@ -58,14 +58,11 @@ class Main extends React.Component {
           style={{ display: "none" }}
         >
           <h2 className="major">Div 1</h2>
-          {/* <span className="image main">
-            <img src="/static/images/pic02.jpg" alt="" />
-          </span> */}
           <iframe
-            src="https://docs.google.com/presentation/d/e/2PACX-1vSbLusjJ1PvJvQomr3SpZDzwJ31yIYI_4zvDu9GCkY_mYmBLDxZ9eroC-vOXuV2LhE3pIkeOfqG9J31/embed?start=false&loop=false&delayms=2000"
+            src="https://docs.google.com/presentation/d/e/2PACX-1vS63RaKmgdMQ7-a-XQ1BsXgRxRwHvfQT5twCuQDCerA2LQEsklCHxNxNw-OWFVYZYuDpvl6IvFfYY3S/embed?start=false&loop=false&delayms=5000"
             frameBorder="0"
-            width="960"
-            height="569"
+            width="1440"
+            height="839"
             allowFullScreen={true}
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
